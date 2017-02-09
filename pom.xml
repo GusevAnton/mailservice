@@ -71,7 +71,11 @@
 					<finalName>mailservice</finalName>
 				</configuration>
 				<executions>
-					<execution>appinfo</execution>
+					<execution>
+						<goals>
+						    <goal>build-info</goal>
+					    </goals>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
