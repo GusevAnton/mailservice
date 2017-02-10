@@ -11,3 +11,5 @@ eureka:
     service-url:
       defaultZone: http://canaban.ddns.net:8004/eureka
     eureka-connection-idle-timeout-seconds: 1
+logging:
+    file: logs/MailService.log
