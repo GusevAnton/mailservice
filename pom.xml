@@ -42,8 +42,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>kanban</groupId>
-			<artifactId>kanban_common</artifactId>
+			<groupId>com.canaban.com</groupId>
+			<artifactId>common</artifactId>
 			<version>1.0</version>
 		</dependency>
 		<dependency>
