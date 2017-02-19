@@ -16,7 +16,7 @@ import java.util.concurrent.Future;
 public class SendMailService {
 
     @Autowired
-    private MailSender javaMailSender;
+    private MailSender mailSender;
 
     @Async
     public Future send(String messageText, String email) {
@@ -24,7 +24,7 @@ public class SendMailService {
         message.setSubject("Test subject");
         message.setText(messageText);
         message.setTo(email);
-        javaMailSender.send(message);
+        mailSender.send(message);
         return new AsyncResult<Void>(null);
     }
 
