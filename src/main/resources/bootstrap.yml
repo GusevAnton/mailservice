@@ -6,6 +6,9 @@ spring:
              discovery:
                   enabled: true
                   serviceId: configservice
+    boot:
+        admin:
+            url: http://localhost:8010
 eureka:
   client:
     service-url:
