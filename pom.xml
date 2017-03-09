@@ -42,7 +42,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.canaban.com</groupId>
+			<groupId>com.canaban.common</groupId>
 			<artifactId>common</artifactId>
 			<version>1.0</version>
 		</dependency>
